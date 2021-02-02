@@ -21,6 +21,31 @@ h4 {
     margin-bottom: 20px;
 }
 
+.scrollToTop {
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    border-radius: 4px;
+    display: none;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    z-index: 1001;
+    color: #FFF;
+    transition: all .5s;
+    background-color: #DA1757;
+    border: 0;
+    cursor: pointer;
+}
+
+.scrollToTop:hover {
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    color: #DA1757;
+    border: 1px solid #DA1757;
+}
+
 /* ========================= header ========================= */
 .main-header {
     background: url(../img/main1.jpg) center no-repeat;
